@@ -12,8 +12,8 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import { useAppSelector } from '../store/hooks';
-import { RootState } from '../store/reducers/store';
+import { useAppSelector } from '../../store/hooks';
+import { RootState } from '../../store/reducers/store';
 import { useEffect, useState } from 'react';
 
 ChartJS.register(

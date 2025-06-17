@@ -1,8 +1,8 @@
 // components/WeatherWidget.tsx
 'use client';
 
-import { useAppSelector } from '../store/hooks';
-import { RootState } from '../store/reducers/store';
+import { useAppSelector } from '../../store/hooks';
+import { RootState } from '../../store/reducers/store';
 import Image from 'next/image';
 
 interface WeatherData {

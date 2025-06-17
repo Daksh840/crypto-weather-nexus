@@ -1,8 +1,8 @@
 // components/NewsFeed.tsx
 'use client';
 
-import { useAppSelector } from '../store/hooks';
-import { RootState } from '../store/reducers/store';
+import { useAppSelector } from '../../store/hooks';
+import { RootState } from '../../store/reducers/store';
 
 interface NewsArticle {
   title: string;

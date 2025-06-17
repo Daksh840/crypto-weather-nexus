@@ -5,7 +5,7 @@
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { toast, Toaster } from 'react-hot-toast';
-import type { RootState } from '../store/reducers/store';
+import type { RootState } from '../../store/reducers/store';
 
 export const NotificationCenter = () => {
   const notifications = useSelector((state: RootState) => state.notifications.items);

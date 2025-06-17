@@ -1,7 +1,7 @@
 // import { fetchCryptoDetails, CryptoDetails } from '@/lib/api/crypto'; // Updated import path
 
 import { fetchCryptoDetails } from '../../../lib/api/crypto';
-import CryptoDetails from '../../../components/CryptoDetails';
+import CryptoDetails from '../../components/CryptoDetails';
 
 export default async function CryptoPage({
   params,
